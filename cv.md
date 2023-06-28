@@ -29,3 +29,17 @@ function findShort(s){
   return shortestWordLength;
 }
 ```
+## Professional Experience
+**Manual QA Engineer**, _iTechArt Group_ | _2019 – present_
+
+**Responsibilities:**
+* Analysis and clarification of projects requirements
+* Preparation of test documentation (check-lists, test cases, regression test plan, TRR, test strategy)
+* Functional and non-functional testing web&mobile
+* Identification, investigation and creation of defects in different bug-tracking systems
+* Evaluation and prioritization of testing tasks
+* Optimization and improvement of testing processes
+
+## Education
+**Bachelor's Degree in Journalism and Social Communications,**
+_The University of Wrocław, Poland_ | _2016 – 2019_
