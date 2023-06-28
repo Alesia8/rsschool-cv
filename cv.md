@@ -41,5 +41,18 @@ function findShort(s){
 * Optimization and improvement of testing processes
 
 ## Education
-**Bachelor's Degree in Journalism and Social Communications,**
+**Bachelor's Degree in Journalism and Social Communications**
 _The University of Wrocław, Poland_ | _2016 – 2019_
+
+**Courses**
+* **Software Testing Course**<br>
+_HTP Educational Center, Belarus_ | _2019 – 2019_
+* **Creating and Administering Websites and Databases**<br>
+_Faber Learning Center, Poland_ | _2022 – 2023_
+
+## Languages
+* Belarusian (C2)
+* Polish (C1)
+* English (B2)
+
+
