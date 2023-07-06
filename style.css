@@ -36,3 +36,31 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     box-shadow: 10px 5px 5px grey;
 }
+
+.header{
+    display: flex;
+}
+
+header a{
+    text-decoration: var(--link-style);
+    color: var(--white);
+}
+
+.cv-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.photo{
+    width: 40%;
+    background-color: var(--main-color);
+    text-align: center;
+}
+
+.photo img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
