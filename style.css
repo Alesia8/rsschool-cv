@@ -4,3 +4,35 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+:root {
+    --main-color: #193441;
+    --text-color: #222222;
+    --white: #ffffff;
+    --pink: #d2bfb7;
+    --title-style: underline;
+    --link-style: none;
+    --li-style: none;
+    --subtitle-weight: 600;
+}
+
+@keyframes color-change {
+    0% {
+      color: red;
+    }
+
+    50%{
+        color: green;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+body{
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 10px 5px 5px grey;
+}
