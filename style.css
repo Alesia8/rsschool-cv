@@ -37,6 +37,8 @@ body{
     box-shadow: 10px 5px 5px grey;
 }
 
+/* header */
+
 .header{
     display: flex;
 }
@@ -63,4 +65,74 @@ header a{
     height: 250px;
     width: 250px;
     border-radius: 50%;
+}
+
+
+/* left column */
+.column-left{
+    width: 40%;
+    background-color: var(--main-color);
+    color: var(--white);
+    line-height: 1.5;
+}
+
+.column-left .profile, .languages, .education{
+    padding: 0 20px;
+}
+
+.column-left .profile{
+    text-align: justify;
+}
+
+.contacts a{
+    text-decoration: var(--link-style);
+    color: var(--white);
+    padding: 0;
+}
+
+.contacts ul{
+    padding-left: 20px;
+}
+
+.contacts li{
+    list-style-type: var(--li-style);
+    padding-bottom: 10px;
+}
+
+.contacts i{
+    padding-right: 5px;
+}
+
+
+.title, .left__section-title{
+    color: var(--pink);
+}
+
+.column-left hr{
+    border: 1px solid var(--pink);
+    margin: 0 0 10px 0;
+}
+
+h3{
+    margin-bottom: 0;
+}
+
+.education__university .university__title{
+    font-weight: var(--subtitle-weight);
+}
+
+.education__university .university__description{
+    font-size: 14px;
+}
+
+.education__courses{
+    margin-top: 30px;
+}
+
+.courses__title{
+    font-weight: var(--subtitle-weight);
+}
+
+.courses__items{
+    margin: 0;
 }
