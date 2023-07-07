@@ -10,7 +10,6 @@ html {
     --text-color: #222222;
     --white: #ffffff;
     --pink: #d2bfb7;
-    --title-style: underline;
     --link-style: none;
     --li-style: none;
     --subtitle-weight: 600;
@@ -76,7 +75,7 @@ header a{
     line-height: 1.5;
 }
 
-.column-left .profile, .languages, .education{
+.column-left .profile, .languages, .education, .projects{
     padding: 0 20px;
 }
 
@@ -100,7 +99,7 @@ header a{
     padding-bottom: 10px;
 }
 
-.contacts i{
+.contacts i, .projects i{
     padding-right: 5px;
 }
 
@@ -137,6 +136,22 @@ h3{
 .courses__items{
     margin: 0;
 }
+
+.projects{
+    padding-bottom: 10px;
+}
+
+.projects a{
+    color: var(--white);
+    font-weight: var(--subtitle-weight);
+    text-decoration: var(--link-style);
+    
+}
+
+.column-left a:hover{
+    color: var(--pink);
+}
+
 
 
 /* center column */
