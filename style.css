@@ -217,3 +217,9 @@ main{
 .items__copyright, .items__github{
     vertical-align: super;
 }
+
+.items__github a{
+    color: var(--text-color);
+    text-decoration: var(--link-style);
+}
+
