@@ -1,11 +1,11 @@
-html {
+html{
     box-sizing: border-box;
-  }
-  *, *:before, *:after {
+}
+  *, *:before, *:after{
     box-sizing: inherit;
-  }
+}
 
-:root {
+:root{
     --main-color: #193441;
     --text-color: #222222;
     --white: #ffffff;
@@ -15,7 +15,7 @@ html {
     --subtitle-weight: 600;
 }
 
-@keyframes color-change {
+@keyframes color-change{
     0% {
       color: red;
     }
