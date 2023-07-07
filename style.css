@@ -137,3 +137,68 @@ h3{
 .courses__items{
     margin: 0;
 }
+
+
+/* center column */
+.column-center{
+    width: 60%;
+    line-height: 1.5;
+}
+
+.column-center .section-title{
+    color: var(--main-color);
+}
+
+.column-center hr{
+    border: 1px solid var(--main-color);
+    margin: 0 0 10px 0;
+}
+
+.column-center .experience, .skills, .code-examples{
+    padding: 0 20px;
+}
+
+main{
+    display: flex;
+}
+
+.skills-block__title{
+    font-weight: var(--subtitle-weight);
+    line-height: 2;
+}
+
+.responsibilities__title{
+    font-weight: var(--subtitle-weight);
+}
+
+.responsibilities__items{
+    margin: 0;
+}
+
+
+.code-examples pre{
+    background-color: rgb(245, 247, 245, 0.5);
+    font-size: 13px;
+    animation: color-change 3s infinite;
+}
+
+/* footer */
+.foooter-blocks__items{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.foooter-blocks li{
+    display: inline;
+    list-style-type: var(--li-style);
+    margin-right: 20px;
+}
+
+.foooter-blocks img{
+    height: 30px;
+}
+
+.items__copyright, .items__github{
+    vertical-align: super;
+}
